@@ -1,0 +1,97 @@
+/* Jetons d'allure : Dell Latitude 5490 reconditionné
+   Parti pris : l'étiquette de contrôle d'un technicien de confiance. */
+:root {
+  /* Accent : orange brûlé, couleur des étiquettes de contrôle. Seulement pour l'action. */
+  --accent-50: #FDF3EC;
+  --accent-100: #FADFCC;
+  --accent-200: #F4BE98;
+  --accent-300: #EC9660;
+  --accent-400: #E2733A;
+  --accent-500: #D2581F;
+  --accent-600: #B4470F;
+  --accent-700: #8F380D;
+  --accent-800: #6E2C0E;
+  --accent-900: #4F210D;
+
+  /* Neutres chauds, teintés vers l'accent (papier, encre, ardoise) */
+  --neutre-0: #FFFFFF;
+  --neutre-50: #F7F4EF;
+  --neutre-100: #EFEAE2;
+  --neutre-200: #DDD5C9;
+  --neutre-300: #C3B8A8;
+  --neutre-400: #9C9081; /* décoratif seulement : 2,85:1 sur papier */
+  --neutre-500: #776C5F;
+  --neutre-600: #5C5348;
+  --neutre-700: #453E36;
+  --neutre-800: #2E2924;
+  --neutre-900: #1E1A16;
+  --neutre-950: #13110E;
+
+  /* Sens */
+  --succes: #2F6B3A;
+  --attention: #9A6A00;
+  --erreur: #A3261B;
+
+  /* Rôles */
+  --fond: var(--neutre-50);
+  --surface: var(--neutre-0);
+  --texte: var(--neutre-900);
+  --texte-doux: var(--neutre-600);
+  --bordure: var(--neutre-200);
+  --bordure-forte: var(--neutre-300);
+  --action: var(--accent-600);
+  --action-survol: var(--accent-700);
+  --action-texte: var(--neutre-0);
+  --focus: var(--accent-500);
+  --ardoise: var(--neutre-900);
+  --ardoise-trait: var(--neutre-300);
+  --ardoise-texte: var(--neutre-50);
+  --ardoise-accent: var(--accent-300);
+  --coche: var(--succes);
+
+  /* Typographie */
+  --police-titre: "Archivo", "Arial Narrow", Arial, sans-serif;
+  --police-texte: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --police-mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+  --corps: 17px;
+  --ligne: 1.5;
+  --ligne-titre: 1.08;
+  --taille-etiquette: 13px;
+  --taille-petit: 14px;
+  --taille-corps: 17px;
+  --taille-3: 21px;
+  --taille-4: 26px;
+  --taille-5: 33px;
+  --taille-6: 41px;
+  --taille-7: 52px;
+  --taille-prix: 44px;
+  --graisse-texte: 400;
+  --graisse-fort: 600;
+  --graisse-titre: 800;
+  --chasse-etiquette: 0.12em;
+
+  /* Formes et espace */
+  --rayon-petit: 4px;   /* boutons, étiquettes */
+  --rayon-grand: 16px;  /* cartes, panneau */
+  --trait: 1.5px;
+  --pas: 4px;
+  --esp-1: 4px;
+  --esp-2: 8px;
+  --esp-3: 12px;
+  --esp-4: 16px;
+  --esp-5: 24px;
+  --esp-6: 32px;
+  --esp-7: 48px;
+  --esp-8: 72px;
+  --esp-9: 120px;
+  --largeur-max: 1180px;
+  --largeur-texte: 38rem;
+  --hauteur-bouton: 56px;
+  --ombre-1: none; /* séparation au trait, pas d'ombre */
+
+  /* Mouvement (registre standard) */
+  --duree-survol: 150ms;
+  --duree-arrivee: 500ms;
+  --decalage: 80ms;
+  --courbe: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
